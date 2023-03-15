@@ -1,0 +1,252 @@
+span:nth-child(1){
+    color: red;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: M;
+    animation-duration: 8s;
+}
+@keyframes M{
+    20%{
+        color: yellow;
+    }
+    50%{
+        color: purple;
+    }
+    100%{
+        color: green;
+    }
+}
+span:nth-child(2){
+    color: green;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: U;
+    animation-duration: 2s;
+}
+@keyframes U{
+    20%{
+        color: purple;
+    }
+    50%{
+        color: red;
+    }
+    100%{
+        color: yellow;
+    }
+}
+span:nth-child(3){
+    color: tomato;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: L;
+    animation-duration: 7s;
+}
+@keyframes L{
+    20%{
+        color: blue;
+    }
+    50%{
+        color: yellow;
+    }
+    100%{
+        color: purple;
+    }
+}
+span:nth-child(4){
+    color: orange;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: T;
+    animation-duration: 3s;
+}
+@keyframes T{
+    20%{
+        color: grey;
+    }
+    50%{
+        color: yellowgreen;
+    }
+    100%{
+        color: blue;
+    }
+}
+span:nth-child(5){
+    color:aqua;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: I;
+    animation-duration: 5s;
+}
+@keyframes I{
+    20%{
+        color: hotpink;
+    }
+    50%{
+        color: olive;
+    }
+    100%{
+        color: blueviolet;
+    }
+}
+span:nth-child(6){
+    color: indianred;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: P;
+    animation-duration: 5s;
+}
+@keyframes P{
+    20%{
+        color: aliceblue;
+    }
+    50%{
+        color: coral;
+    }
+    100%{
+        color: firebrick;
+    }
+}
+span:nth-child(7), :nth-child(19){
+    color: lightgreen;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: L2;
+    animation-duration: 5s;
+}
+@keyframes L2{
+    20%{
+        color: indigo;
+    }
+    50%{
+        color: violet;
+    }
+    100%{
+        color: dimgray;
+    }
+}
+span:nth-child(8), :nth-child(16){
+    color: khaki;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: I2;
+    animation-duration: 5s;
+}
+@keyframes I2{
+    20%{
+        color: burlywood;
+    }
+    50%{
+        color: peru;
+    }
+    100%{
+        color: mediumturquoise;
+    }
+}
+span:nth-child(9){
+    color: gold;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: C;
+    animation-duration: 5s;
+}
+@keyframes C{
+    20%{
+        color: crimson;
+    }
+    50%{
+        color: mediumpurple;
+    }
+    100%{
+        color: tan;
+    }
+}
+span:nth-child(10), :nth-child(18){
+    color: aquamarine;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: A;
+    animation-duration: 5s;
+}
+@keyframes A{
+    20%{
+        color: chartreuse;
+    }
+    50%{
+        color: whitesmoke;
+    }
+    100%{
+        color: orchid;
+    }
+}
+span:nth-child(11){
+    color: teal;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: T2;
+    animation-duration: 5s;
+}
+@keyframes T2{
+    20%{
+        color: thistle;
+    }
+    50%{
+        color: tomato;
+    }
+    100%{
+        color: tan;
+    }
+}
+span:nth-child(12){
+    color: cadetblue;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: I3;
+    animation-duration: 6s;
+}
+@keyframes I3{
+    20%{
+        color: plum;
+    }
+    50%{
+        color: palevioletred;
+    }
+    100%{
+        color: palegreen;
+    }
+}
+span:nth-child(13), :nth-child(15){
+    color: tomato;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: L;
+    animation-duration: 8s;
+}
+@keyframes L{
+    20%{
+        color: blue;
+    }
+    50%{
+        color: yellow;
+    }
+    100%{
+        color: purple;
+    }
+}
+span:nth-child(14), :nth-child(17){
+    color: orange;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: T;
+    animation-duration: 12s;
+}
+@keyframes T{
+    20%{
+        color: grey;
+    }
+    50%{
+        color: yellowgreen;
+    }
+    100%{
+        color: blue;
+    }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Times table</title>
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body onload="loadit()">
+    <div class="container mt-5">
+        <h1 class="text-center">
+            <span>M</span><span>U</span><span>L</span><span>T</span><span>I</span><span>P</span><span>L</span><span>I</span><span>C</span><span>A</span><span>T</span><span>I</span><span>O</span><span>N</span> <span>T</span><span>A</span><span>B</span><span>L</span><span>E</span> </h1>
+        <div class="row text-center">
+            <div class="col-12 mx-auto shadow-lg w-50 p-3">
+                <div id="error"></div>
+                <input type="number" id="firstInput" class="my-2 w-50">
+                <input type="number" id="secondInput" class="my-2 w-50"><br>
+                <button class="btn btn-success my-2" onclick="check()">CHECK</button>
+                <button class="btn btn-danger my-2" onclick="clearall()">CLEAR</button>
+                <div class="text-end mt-2"><i style="font-size: 12px;">Made by JOSH BAM</i></div>
+            </div>
+        </div>
+    </div><br><br>
+    <div id="clearing" class="text-center"></div>
+
+    <table border="1" min-width="400vw" class="ms-5" id="output"></table>
+
+    <script src="index.js"></script>
+</body>
+</html>
